@@ -83,7 +83,7 @@ Grouping variables:
 
 ## Significant & Insignificant variabels
 
-Several [visualizations](other/Price_prediction_of_preowned_cars_visualisation) were created to analyze the relationship between each variable and the _price_. This helped identify which variables are significant and should be included in the modeling process.
+Several [visualizations](others/Price_prediction_of_preowned_cars_visualisation) were created to analyze the relationship between each variable and the _price_. This helped identify which variables are significant and should be included in the modeling process.
 
 | Category | Variables |
 |----------|-----------|
@@ -104,7 +104,7 @@ Here is the metrics of the models and summary of the project:
 | Linear Regression (Imputed Values) | 64.83 % | 70.71 %, 70.73 % |
 | Random Forest (Imputed Values) | 49.43 % | 90.24 %, 82.69 % |
 
-[final_viz](other/model_performance_comparison.png)
+![final_viz](others/model_performance_comparison.png)
 
 It is observed that Random Forest model (with omitted data) performs better than Linear Regression model. This is because of:
 - Lowest RMSE (0.4361): RMSE (Root Mean Square Error) measures the average magnitude of the prediction error. A lower RMSE means the model's predictions are closer to actual values.
