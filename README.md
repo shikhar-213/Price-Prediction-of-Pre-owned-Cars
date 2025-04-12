@@ -7,7 +7,7 @@
 - [Technologies Used](#technologies-used)
 - [Steps Performed](#steps-performed)
 - [Data Cleaning](#data-cleaning)
-- [Significant & Insignificant variabels](#significant-&-insignificant-variabels)
+- [Significant & Insignificant variabels](#significant-and-insignificant-variabels)
 - [Results](#results)
 - [Acknowledgements](#acknowledgements)
 
@@ -81,7 +81,7 @@ Grouping variables:
 - _Age:_ A new column named _age_ was created to represent the age of the car by combining _yearOfRegistration_ and _monthOfRegistration_. This was calculated using the formula: **data['age'] = (2018-data['yearOfRegistration'])+(data['monthOfRegistration']/12)**
 - The columns _yearOfRegistration_ and _monthOfRegistration_, along with rows containing null values, were dropped in a copy of the dataset (used for building models on data with omitted values). For the imputed version, missing values were filled using the median before building the models.
 
-## Significant & Insignificant variabels
+## Significant and Insignificant variabels
 
 Several [visualizations](others/Price_prediction_of_preowned_cars_visualisation.pdf) were created to analyze the relationship between each variable and the _price_. This helped identify which variables are significant and should be included in the modeling process.
 
@@ -110,3 +110,8 @@ It is observed that Random Forest model (with omitted data) performs better than
 - Lowest RMSE (0.4361): RMSE (Root Mean Square Error) measures the average magnitude of the prediction error. A lower RMSE means the model's predictions are closer to actual values.
 - Highest R² Scores: R² (R-squared) shows how well the model explains the variability in the target variable. It has the highest R² on both train (0.9202) and test (0.8504) sets, indicating strong model fit and generalization.
 - Better Generalization: The relatively small gap between train and test R² suggests it is not overfitting.
+
+## Acknowledgements
+
+- NPTEL
+- ChatGPT
