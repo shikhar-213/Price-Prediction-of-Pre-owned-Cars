@@ -90,6 +90,8 @@ Several [visualizations](others/Price_prediction_of_preowned_cars_visualisation.
 | Insignificant Variables | _abtest, seller, offerType_ |
 | Significant Variabels | _price, vehicleType, gearbox, powerPS, model, kilometer, fuelType, brand, notRepairedDamage, age_ |
 
+You can find the visualization images in the 'others' folder of this repository.
+
 _Note:-_ Our Models were created in two cases:
 1. With dropping of null values and insignificant variables.
 2. With filling null values with the median and using both significant and insignificant variables.
@@ -97,12 +99,12 @@ _Note:-_ Our Models were created in two cases:
 ## Results
 
 Here is the metrics of the models and summary of the project:
-| Model | RMSE | RSquared (train, test) |
-|-------|------|------------------------|
-| Linear Regression (Omitted Values) | 54.55 % | 78.00 %, 76.58 % |
-| Random Forest (Omitted Values) | 43.60 % | 92.02 %, 85.04 % |
-| Linear Regression (Imputed Values) | 64.83 % | 70.71 %, 70.73 % |
-| Random Forest (Imputed Values) | 49.43 % | 90.24 %, 82.69 % |
+| Model | RMSE | $R^2$ Train | $R^2$ Test |
+|-------|------|-------------|------------|
+| Linear Regression (Omitted Values) | 54.55 % | 78.00 % | 76.58 % |
+| Random Forest (Omitted Values) | 43.60 % | 92.02 % | 85.04 % |
+| Linear Regression (Imputed Values) | 64.83 % | 70.71 % | 70.73 % |
+| Random Forest (Imputed Values) | 49.43 % | 90.24 % | 82.69 % |
 
 ![final_viz](others/model_performance_comparison.png)
 
