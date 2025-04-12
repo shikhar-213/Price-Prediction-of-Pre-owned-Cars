@@ -60,3 +60,6 @@ Here is the dataset description:
 - Model building (omitted data) - base model, linear regression model, random forest model.
 - Model building (imputed data) - base model, linear regression model, random forest model.
 - Compared models' accuracy with both omitted & imputed data.
+
+
+_**what's ahead -> data cleaning, significant and insignificant variables, ML models' viz.; results -> summary/comparisons**_
