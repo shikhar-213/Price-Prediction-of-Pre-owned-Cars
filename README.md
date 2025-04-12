@@ -83,7 +83,7 @@ Grouping variables:
 
 ## Significant & Insignificant variabels
 
-Several [visualizations](others/Price_prediction_of_preowned_cars_visualisation) were created to analyze the relationship between each variable and the _price_. This helped identify which variables are significant and should be included in the modeling process.
+Several [visualizations](others/Price_prediction_of_preowned_cars_visualisation.pdf) were created to analyze the relationship between each variable and the _price_. This helped identify which variables are significant and should be included in the modeling process.
 
 | Category | Variables |
 |----------|-----------|
@@ -94,7 +94,7 @@ _Note:-_ Our Models were created in two cases:
 1. With dropping of null values and insignificant variables.
 2. With filling null values with the median and using both significant and insignificant variables.
 
-## Result
+## Results
 
 Here is the metrics of the models and summary of the project:
 | Model | RMSE | RSquared (train, test) |
